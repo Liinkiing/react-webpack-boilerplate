@@ -1,0 +1,17 @@
+{
+  "extends": ["airbnb", "prettier", "prettier/react", "plugin:flowtype/recommended"],
+  "plugins": ["flowtype", "react", "prettier"],
+  "parser": "babel-eslint",
+  "globals": {
+    "document": true,
+    "navigator": true,
+    "fetch": true,
+    "Element": true,
+    "HTMLElement": true,
+    "window": true,
+    "location": true
+  },
+  "rules": {
+    "react/jsx-filename-extension": ["error", { "extensions": [".js"] }]
+  }
+}
