@@ -6,6 +6,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "webpack-dev-server --hot --open --config webpack/webpack.dev.js",
+    "lint": "eslint --cache --fix src",
+    "prettier": "prettier --write src/**/*.js",
     "build": "webpack --config webpack/webpack.prod.js"
   },
   "devDependencies": {
